@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Traffic Application</string>
+    <string name="acknowledgement">Contains Traffic Scotland data</string>
+    <string name="loading">Loading…</string>
+    <string name="loading_progress">Loading… %1$d%%</string>
+    <string name="updated_at">Updated %1$s</string>
+    <string name="situation_title">%1$s: %2$s</string>
+    <string name="no_situations">No traffic data available</string>
+    <string name="view_on_map">View Selected On Map</string>
+    <string name="toast_nothing_selected">Select at least one situation</string>
+    <string name="search_hint">Search road, e.g. M8</string>
+    <string name="filter_all">All</string>
+    <string name="filter_incidents">Incidents</string>
+    <string name="filter_roadworks">Roadworks</string>
+    <string name="distance_description">Distance from GCU</string>
+    <string name="no_matches">No matching situations</string>
+    <!-- Details dialog -->
+    <string name="close">Close</string>
+    <string name="details_not_available">This situation is no longer available</string>
+    <string name="label_category">Category</string>
+    <string name="label_roads">Roads</string>
+    <string name="label_direction">Direction</string>
+    <string name="label_description">Description</string>
+    <string name="label_lanes">Lanes</string>
+    <string name="label_delay">Delay</string>
+    <string name="label_start">Start</string>
+    <string name="label_end">End</string>
+    <!-- "open"/"restricted"  -->
+    <string name="lanes_open" tools:ignore="PluralsCandidate">%1$d open</string>
+    <string name="lanes_restricted" tools:ignore="PluralsCandidate">%1$d restricted</string>
+    <!-- Map -->
+    <string name="map_no_locations">Selected situations have no location</string>
+    <!-- Order matches DISTANCE_MILES in SituationListFragment -->
+    <string-array name="distance_options">
+        <item>1 mile</item>
+        <item>5 miles</item>
+        <item>10 miles</item>
+        <item>50 miles</item>
+        <item>Any distance</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lighter situation colours  -->
+    <color name="incident">#EF9A9A</color>
+    <color name="roadworks">#FFB74D</color>
+
+    <!-- Lighter delay colours -->
+    <color name="delay_some">#FFF176</color>
+    <color name="delay_long">#FFB74D</color>
+    <color name="delay_very_long">#EF9A9A</color>
+</resources>

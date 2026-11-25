@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gaughan_Nicholas_S2533284" parent="Theme.Material3.DayNight">
+        <!-- Action bar in the same purple as the buttons (colorPrimary) -->
+        <item name="actionBarStyle">@style/TrafficActionBar</item>
+    </style>
+
+    <style name="Theme.Gaughan_Nicholas_S2533284" parent="Base.Theme.Gaughan_Nicholas_S2533284" />
+
+    <!-- colorPrimary / colorOnPrimary come from the theme, so dark mode gets its own
+         matching shades automatically, just like the buttons -->
+    <style name="TrafficActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">?attr/colorPrimary</item>
+        <item name="titleTextStyle">@style/TrafficActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TrafficActionBar.Subtitle</item>
+    </style>
+
+    <style name="TrafficActionBar.Title" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TrafficActionBar.Subtitle" parent="TextAppearance.Material3.ActionBar.Subtitle">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+</resources>

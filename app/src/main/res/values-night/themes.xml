@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gaughan_Nicholas_S2533284" parent="Theme.Material3.DayNight">
+        <!-- Same action bar style as the light theme (see values/themes.xml) -->
+        <item name="actionBarStyle">@style/TrafficActionBar</item>
+    </style>
+</resources>
